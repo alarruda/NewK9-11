@@ -1,1 +1,14 @@
 # NewK9-11
+
+  The artifact that I chose for my database requirement was from a recent course I took. The course was Client/Server development, and the goal of the course was to create a GUI application to create, read, update, and delete records from a database. The database was comprised of animal data from five animal shelters in the Austin, TX area. Using my application, the client would be able to search for specific attributes in animals to identify potential candidates for search and rescue operations.
+  
+  I chose this artifact as it directly reflects my expertise in database manipulation and queries. This artifact displays my ability to create a GUI application using python and have a fully functioning application that a user can explore data in a simple-to-use way. This artifact is the perfect fit for the database requirement for this project.
+  
+  Originally, my code was non-functioning and required some extra work to debug and correct the errors presented when running the code. After reviewing the issues, I discovered that the application was not returning a cursor for the program. This caused the program to not function. After correcting the issue, I was able to get the program to run successfully. Once the program was running, I moved on to trying to make improvements to the code.
+  
+  First, I removed the FIXME comments and added better comments to the code to better explain the purpose of each function. I then wanted to improve the queries, but they were already pretty good. Knowing that the queries were ok, I explored other ways of gathering performance data to see if there were any queries that were slow. I implemented two mongoDB functions from the Access Performance Advisor to view collections with slow queries and return suggested indexes. This will offer insight into the performance of the queries. If the queries are slow, the next step we could take is creating database shards.
+  
+  Sharding  was something new that I learned during my exploration of the application. Sharding the database will require some work but using queries we can break down the database into more digestible and smaller databases. For example, query for all the dogs in the databases and create a single database from that. This would improve the speed of the queries exponentially as they don’t have to skim through irrelevant data.
+  
+  This artifact meets the course objectives and I know that I’ve met the requirements that I outlined in Module One and some. To get the code running wasn’t terribly difficult. However, I felt intimidated that I wouldn’t be able to get it to run successfully. After getting it to run and making the improvements stated above, I am proud to say that I’ve accomplished the enhancements.
+![image](https://user-images.githubusercontent.com/54429029/184683218-f1fb9fa7-b820-4116-8e53-3e35674c64f3.png)
