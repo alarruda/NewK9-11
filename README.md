@@ -11,4 +11,3 @@
   Sharding  was something new that I learned during my exploration of the application. Sharding the database will require some work but using queries we can break down the database into more digestible and smaller databases. For example, query for all the dogs in the databases and create a single database from that. This would improve the speed of the queries exponentially as they don’t have to skim through irrelevant data.
   
   This artifact meets the course objectives and I know that I’ve met the requirements that I outlined in Module One and some. To get the code running wasn’t terribly difficult. However, I felt intimidated that I wouldn’t be able to get it to run successfully. After getting it to run and making the improvements stated above, I am proud to say that I’ve accomplished the enhancements.
-![image](https://user-images.githubusercontent.com/54429029/184683218-f1fb9fa7-b820-4116-8e53-3e35674c64f3.png)
